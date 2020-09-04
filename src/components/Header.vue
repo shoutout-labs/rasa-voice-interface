@@ -3,8 +3,8 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-4 text-left">
-					<a href="https://rasa.com/" target="_blank">
-						<img id="header-logo" src="@/assets/icon/logo.png">
+					<a href="https://shoutout.ai/" target="_blank">
+						<img id="header-logo" src="@/assets/icon/logo.svg">
 					</a>
 				</div>
 				<div class="col-4 text-middle"></div>
@@ -46,7 +46,7 @@ export default {
 	}
 
 	#header-logo {
-		height: 23px;
+		height: 25px;
 		display: block;
 	}
 

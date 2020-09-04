@@ -19,7 +19,8 @@ Vue.component('font-awesome-icon', FontAwesomeIcon);
 Vue.use(
 	new VueSocketIO({
 		debug: true,
-		connection: 'http://localhost:5005',
+		// connection: 'http://localhost:5005',
+		connection: 'http://67.205.163.96:5005',
 		vuex: {
 			store,
 			actionPrefix: 'SOCKET_',

@@ -1,7 +1,7 @@
 <template>
 	<div>
-		<a href="https://rasa.com/" target="_blank">
-			<img class="logo" src="@/assets/icon/logo.png">
+		<a href="https://shoutout.ai/" target="_blank">
+			<img class="logo" src="@/assets/icon/logo.svg">
 		</a>
 		<p>
 			Want to experience it for yourself?
@@ -19,8 +19,7 @@ export default {};
 
 <style lang="scss" scoped>
 .logo {
-	width: 104px;
-	height: 49px;
+	height: 32px;
 	margin: 0 auto;
 	display: block;
 	margin-top: 20vh;

@@ -10,7 +10,7 @@
 				class="lds-ball"
 				style="background: none; margin-top: 20vh; margin-button: 100px;"
 			>
-				<circle cx="50" cy="23.0182" r="5" fill="#7B01BC">
+				<circle cx="50" cy="23.0182" r="5" fill="#005fb3">
 					<animate
 						attributeName="cy"
 						calcMode="spline"
@@ -24,7 +24,7 @@
 					<animate
 						attributeName="fill"
 						calcMode="spline"
-						values="#FFFFFF;#7B01BC;#FFFFFF"
+						values="#FFFFFF;#005fb3;#FFFFFF"
 						keyTimes="0;0.5;1"
 						dur="1"
 						keySplines="0.45 0 0.9 0.55;0 0.45 0.55 0.9"
@@ -173,17 +173,17 @@ export default {
 	width: 100%;
 	height: 100%;
 	background: rgb(0, 0, 0);
-	background: -moz-linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(123, 1, 188, 1) 91%);
-	background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(123, 1, 188, 1) 91%);
-	background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(123, 1, 188, 1) 91%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#7b01bc",GradientType=1);
+	background: -moz-linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 95, 179, 1) 91%);
+	background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 95, 179, 1) 91%);
+	background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 95, 179, 1) 91%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#005fb3",GradientType=1);
 	@media only screen and (max-width: 600px) {
-		background: -moz-linear-gradient(13deg, rgba(0, 0, 0, 1) 0%, rgba(123, 1, 188, 1) 55%);
-		background: -webkit-linear-gradient(13deg, rgba(0, 0, 0, 1) 0%, rgba(123, 1, 188, 1) 55%);
-		background: linear-gradient(13deg, rgba(0, 0, 0, 1) 0%, rgba(123, 1, 188, 1) 55%);
+		background: -moz-linear-gradient(13deg, rgba(0, 0, 0, 1) 0%, rgba(0, 95, 179, 1) 55%);
+		background: -webkit-linear-gradient(13deg, rgba(0, 0, 0, 1) 0%, rgba(0, 95, 179, 1) 55%);
+		background: linear-gradient(13deg, rgba(0, 0, 0, 1) 0%, rgba(0, 95, 179, 1) 55%);
 		filter: progid:DXImageTransform.Microsoft.gradient(
 			startColorstr="#000000",
-			endColorstr="#7b01bc",
+			endColorstr="#005fb3",
 			GradientType=1);
 	}
 	.connecting-overlay {
